@@ -1,0 +1,144 @@
+.header {
+  font-weight: bolder;
+  height: 5%;
+  text-align: center;
+  background-color: #1a666e;
+  color: #000;
+  font-size: larger;
+  padding-top: 2%;
+  margin-top: -20px;
+}
+.leftHeader {
+  width: 100%;
+  text-align: center;
+  color: #81750a;
+}
+.splitLeft {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+left: 0;
+background-color: #0c202b;
+}
+.splitRight {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+right: 0;
+background-color: grey;
+}
+.splitRightInRight {
+  height: 100%;
+  width: 60%;
+  margin-left: 40%;
+  margin-top: 3.5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-color: grey;
+}
+.splitLeftInRight {
+  height: 100%;
+  margin-top: 3.5%;
+  width: 20%;
+  margin-left: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  left: 0;
+  background-color: grey;
+}
+.centered {
+  margin-top: 6%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+text-align: center;
+  /*overflow-y: auto;*/
+}
+.button {
+cursor: pointer;
+margin-bottom: 6px;
+border-radius: 4px;
+background-color: #d0cdcd;
+  font-size: medium;
+  color: black;
+  border-width: 1px;
+  width: 90%;
+  margin-left: 8px;
+
+}
+.button:hover {
+  border-color: black;
+  background-color: #c2bfbf;
+  color: black;
+}
+.button:after {
+  background-color: grey;
+}
+.button:active {
+  background-color: deepskyblue;
+}
+
+.text {
+  height: 75%;
+  color: #FFEB3B;
+  font-style: italic;
+}
+
+.videos {
+  height: 80%;
+}
+
+.filterButton {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #0c202b;
+  color: deepskyblue;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+
+}
+
+.filterButton:hover, .filterButton:focus {
+  background-color: #022f1a;
+}
+
+.filtersSection {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.filters {
+  width: 100%;
+  border-width: 1px;
+  background-color: #a19f9f;
+  cursor: pointer;
+  font-weight: bold;
+}
+.filters:hover {
+  border-color: black;
+  background-color: #a09f9f;
+}
+.filters:active {
+  background-color: deepskyblue;
+}
